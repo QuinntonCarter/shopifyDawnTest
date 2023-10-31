@@ -124,6 +124,12 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "fb86e50c-2fc1-4d99-9be4-4ed98dc14198": {
+      "type": "liquid-ref",
+      "settings": {
+        "liquid-ref": ""
+      }
     }
   },
   "order": [
@@ -135,6 +141,7 @@
     "3dc45684-f6a8-477e-8bd8-3bba9156c0bb",
     "26d46d19-cd68-4d91-98c5-38f0e1b70e36",
     "3d731667-e506-4034-925a-de4589cce7d0",
-    "ddcd0430-7e2a-4de1-a436-14beb5a97502"
+    "ddcd0430-7e2a-4de1-a436-14beb5a97502",
+    "fb86e50c-2fc1-4d99-9be4-4ed98dc14198"
   ]
 }
