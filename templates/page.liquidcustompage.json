@@ -128,7 +128,7 @@
     "fb86e50c-2fc1-4d99-9be4-4ed98dc14198": {
       "type": "liquid-ref",
       "settings": {
-        "liquid-ref": ""
+        "liquid-ref": "Custom Liquid Heading From GUI"
       }
     }
   },
