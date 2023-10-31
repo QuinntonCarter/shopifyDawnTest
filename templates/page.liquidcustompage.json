@@ -75,6 +75,24 @@
         "padding_bottom": 52
       }
     },
+    "3dc45684-f6a8-477e-8bd8-3bba9156c0bb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% unless page.title != 'About' %}\nThis is the about page\n{% endunless %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "26d46d19-cd68-4d91-98c5-38f0e1b70e36": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title == 'About'%}\nThe current page is the about page\n{% else %}\nThe current page is not the about page\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "3d731667-e506-4034-925a-de4589cce7d0": {
       "type": "rich-text",
       "blocks": {
@@ -106,15 +124,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "3dc45684-f6a8-477e-8bd8-3bba9156c0bb": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% unless page.title != 'About' %}\nThis is the about custom liquid page\n{% endunless %}",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -123,8 +132,9 @@
     "6b665e47-168f-4260-8add-64c33885cd99",
     "9c152c8a-c13a-4aac-b444-39b18169e027",
     "e45b1e52-ea60-4bdf-b9ab-f6573d6fe8f1",
+    "3dc45684-f6a8-477e-8bd8-3bba9156c0bb",
+    "26d46d19-cd68-4d91-98c5-38f0e1b70e36",
     "3d731667-e506-4034-925a-de4589cce7d0",
-    "ddcd0430-7e2a-4de1-a436-14beb5a97502",
-    "3dc45684-f6a8-477e-8bd8-3bba9156c0bb"
+    "ddcd0430-7e2a-4de1-a436-14beb5a97502"
   ]
 }
