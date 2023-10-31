@@ -2,13 +2,129 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "55d684a4-9183-4885-b99a-a311d960990e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15893571698788__55d684a4-9183-4885-b99a-a311d960990e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "template--15893571698788__55d684a4-9183-4885-b99a-a311d960990e-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "6b665e47-168f-4260-8add-64c33885cd99": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "9c152c8a-c13a-4aac-b444-39b18169e027": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15893571698788__9c152c8a-c13a-4aac-b444-39b18169e027-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tag",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15893571698788__9c152c8a-c13a-4aac-b444-39b18169e027-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "e45b1e52-ea60-4bdf-b9ab-f6573d6fe8f1": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title == 'About' %}\nYes, this is the about page\n{% endif%}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "3d731667-e506-4034-925a-de4589cce7d0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15893571698788__3d731667-e506-4034-925a-de4589cce7d0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Filter",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15893571698788__3d731667-e506-4034-925a-de4589cce7d0-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ddcd0430-7e2a-4de1-a436-14beb5a97502": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ 'hello world' | capitalize }}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "3dc45684-f6a8-477e-8bd8-3bba9156c0bb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% unless page.title != 'About' %}\nThis is the about custom liquid page\n{% endunless %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "55d684a4-9183-4885-b99a-a311d960990e",
+    "6b665e47-168f-4260-8add-64c33885cd99",
+    "9c152c8a-c13a-4aac-b444-39b18169e027",
+    "e45b1e52-ea60-4bdf-b9ab-f6573d6fe8f1",
+    "3d731667-e506-4034-925a-de4589cce7d0",
+    "ddcd0430-7e2a-4de1-a436-14beb5a97502",
+    "3dc45684-f6a8-477e-8bd8-3bba9156c0bb"
   ]
 }
